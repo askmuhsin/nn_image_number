@@ -12,7 +12,7 @@ This project is to develop a neural network that take 2 inputs namely  an image 
 ------
 ## Training Log
 ![train log epoch 0 to 4](https://github.com/askmuhsin/nn_image_number/blob/main/resources/epoch_0_to_4.png)
-![train log epoch 5 to 9](https://github.com/askmuhsin/nn_image_number/blob/main/resources/epoch_0_to_4.png)
+![train log epoch 5 to 9](https://github.com/askmuhsin/nn_image_number/blob/main/resources/epoch_5_to_9.png)
 
 ------
 ## Data Representation
