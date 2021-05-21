@@ -11,12 +11,14 @@ This project is to develop a neural network that take 2 inputs namely  an image 
 
 ------
 ## Training Log
-
-------
-## Model Architecture
+![alt text](https://github.com/askmuhsin/nn_image_number/blob/main/resources/training_log_1.png)
 
 ------
 ## Data Generator
+![alt text](https://github.com/askmuhsin/nn_image_number/blob/main/resources/data_generator_1.png)
+
+------
+## Model Architecture
 
 ------
 ## Training Loop
