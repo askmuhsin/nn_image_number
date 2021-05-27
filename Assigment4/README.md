@@ -32,8 +32,8 @@ The activated neurnns producess output e1 and e2 and finally give the output e_t
 - a_o1 = σ(o1)
 - a_o2 = σ(o2)
 
-- e1=0.5*(t1-a_o1)^2	
-- e2=0.5*(t2-a_o2)^2	
+- e1=0.5 * (t1 - a_o1)^2	
+- e2=0.5 * (t2 - a_o2)^2	
 
 ### Backward Propagation
 
