@@ -9,3 +9,8 @@ The neurons h1 and h2 gets activated through sigmoid functions and becomes a_h1 
 The activated neurons a_h1 and a_h2 gets connected to output neurons o1 and o2 through weights w5,w7 and w6,w8 respectively. 
 The output layer neurons are also gets activated by sigmoid function and these activated neurons are called a_o1 and a_o2. 
 The activated neurnns producess output e1 and e2 and finally give the output e_total which is sum of e1 and e2.
+
+## Learning rate chart
+![Learning Rate chart for different learning rates](https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/Learning_Rate.png.png)
+
+![Neural Network excel sheet](https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/NeuralNetwork%20.xlsx)
