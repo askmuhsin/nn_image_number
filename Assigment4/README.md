@@ -15,10 +15,10 @@ The output layer neurons are also gets activated by sigmoid function and these a
 The activated neurnns producess output e1 and e2 and finally give the output e_total which is sum of e1 and e2.
 
 ## Learning rate chart
-![Learning Rate chart for different learning rates](https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/Learning_Rate.png.png)
+![Learning Rate chart for different learning rates](https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/Learning_Rate.png)
 
 ## Excel Sheet experiment
-![Neural Network excel sheet](https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/NeuralNetwork%20.xlsx)
+![Neural Network excel sheet](https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/NeuralNetwork.xlsx)
 
 ## Calculations
 ### Forward Propagation
