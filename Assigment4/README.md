@@ -32,7 +32,6 @@ The activated neurnns producess output e1 and e2 and finally give the output e_t
 - a_o1 = σ(o1)
 - a_o2 = σ(o2)
 
-- e1 = (t1 - a_o1)^2	
 - e1=0.5*(t1-a_o1)^2	
 - e2=0.5*(t2-a_o2)^2	
 
@@ -60,4 +59,7 @@ The activated neurnns producess output e1 and e2 and finally give the output e_t
 - ∂ E_total / ∂ w1 = ((a_o1 - t1) * a_o1 * (1 - a_o1) * w5 + (a_o2 - t2) * a_o2 * (1 - a_o2) * w7) * (a_h1 * (1-a_h1)) * i1						
 - ∂ E_total / ∂ w2 = ((a_o1 - t1) * a_o1 * (1 - a_o1) * w5 + (a_o2 - t2) * a_o2 * (1 - a_o2) * w7) * (a_h1 * (1-a_h1)) * i2						
 - ∂ E_total / ∂ w3 = ((a_o1 - t1) * a_o1 * (1 - a_o1) * w6 + (a_o2 - t2) * a_o2 * (1 - a_o2) * w8) * (a_h2 * (1-a_h2)) * i1						
-- ∂ E_total / ∂ w4 = ((a_o1 - t1) * a_o1 * (1 - a_o1) * w6 + (a_o2 - t2) * a_o2 * (1 - a_o2) * w8) * (a_h2 * (1-a_h2)) * i2						
+- ∂ E_total / ∂ w4 = ((a_o1 - t1) * a_o1 * (1 - a_o1) * w6 + (a_o2 - t2) * a_o2 * (1 - a_o2) * w8) * (a_h2 * (1-a_h2)) * i2			
+
+The different weights are calculated based on below formula:
+New_weight = Previous_weight - (Learning_rate * Derivative of Previous_weight)
