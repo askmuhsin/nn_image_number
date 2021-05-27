@@ -2,7 +2,7 @@
 
 ## Introduction
 
-https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/NeuralNetwork.jpg
+![Neural network](https://github.com/eva-6-3/nn_image_number/blob/main/Assigment4/NeuralNetwork.jpg)
 
 The Neural network has two inputs i1 and i2 and it contains two layers h and o. 
 Output of the final layer is e_total and this is sum of e1 and e2.
